@@ -3,10 +3,12 @@ package br.com.cwks.estudosJava.services;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import br.com.cwks.estudosJava.entities.Category;
-import br.com.cwks.estudosJava.repository.CategoryRepository;
+import br.com.cwks.estudosJava.repositories.CategoryRepository;
 
+@Service
 public class CategoryService {
     
     @Autowired

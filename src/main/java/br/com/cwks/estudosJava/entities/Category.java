@@ -19,7 +19,7 @@ public class Category implements Serializable {
     private Integer id;
     private String description;
     private double dailyPrice;
-    private int year;
-    private int fabricationDate;
+    private Integer year;
+    private Integer fabricationDate;
     
 }
